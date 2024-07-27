@@ -1,0 +1,32 @@
+{
+    "title": "Vlaams Verkeerscentrum",
+    "config": {
+      "step": {
+        "user": {
+          "title": "User Configuration",
+          "data": {
+            "email": "Email",
+            "password": "Password"
+          },
+          "data_description": {
+            "email": "The email address of your Vlaams Verkeerscentrum account.",
+            "password": "The password of your Vlaams Verkeerscentrum account."
+          }
+        },
+        "trajectories": {
+          "title": "Trajectories",
+          "description": "Go to verkeercentrum.be and create some trajectories via the \"Mijn Trajecten\" page. When you have created some trajectories, you can select them in this field.",
+          "data": {
+            "trajectories": "Trajectories"
+          }
+        }
+      },
+      "abort": {
+        "already_configured": "The exact same configuration is already configured."
+      },
+      "error": {
+        "unknown": "Unknown error.",
+        "invalid_credentials": "Invalid credentials."
+      }
+    }
+  }

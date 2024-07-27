@@ -1,0 +1,12 @@
+{
+  "domain": "vlaams_verkeerscentrum",
+  "name": "Vlaams Verkeerscentrum",
+  "codeowners": ["@studiojw"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/studiojw/vlaams-verkeerscentrum-ha/blob/main/README.md",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/studiojw/vlaams-verkeerscentrum-ha/issues",
+  "requirements": ["beautifulsoup4==4.12.3"],
+  "version": "0.0.1"
+}
